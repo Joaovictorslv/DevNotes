@@ -1,0 +1,67 @@
+@media (max-width: 800px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #202124;
+    }
+
+    header{
+        
+        height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    h1{
+        font-size: 20px;
+        
+    }
+
+    #search-container{
+        padding-top: 15px ;
+        height: 17px;
+        width: 220px;
+        gap: 10px;
+    }
+
+    #search-input{
+        height: 30px;
+    }
+
+    #export-notes p{
+        display: none;
+    }
+
+    #export-notes {
+        margin-top: 15px ;
+        width: 15px;
+        height: 30px;
+    }
+
+    #export-notes .bi-download{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    #add-note-container{
+        background-color: aqua;
+        padding: 0px;
+    }
+
+    #note-content{
+        padding-top: 15px ;
+        height: 35px;
+        width: 150px;
+        gap: 10px;
+    }
+}

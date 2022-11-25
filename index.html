@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    
+
+    <title>MyNotes</title>
+</head>
+<body>
+     <!--Cabeçalho/Navbar do site com funções "básicas"-->
+    <header>
+        <!--Título da página-->
+        <h1>DevNotes</h1>
+        <!--Barra de busca div externa para englobar o símbolo da lupa e input de pesquisa-->
+       
+            <div id="search-container">
+                <i class="bi bi-search"></i>
+                <input type="text" id="search-input" placeholder="Busque por uma nota">
+            </div>
+             <!--Botão para exportar o arquivo em CSV-->
+            <button id="export-notes">
+                <p>Exportar CSV</p> <i class="bi bi-download"></i>
+            </button>
+        
+
+    </header>
+
+    <!--Zona de adição de nota-->
+    <div id="add-note-container">
+        <!--Campo para escrever-->
+        <input type="text" id="note-content" placeholder="O que deseja anotar">
+        <!--Botão para dicionar nota-->
+        <button class="add-note">
+            <i class="bi bi-plus-lg"></i>
+        </button>
+    </div>
+
+
+     
+        <div id="notes-container">
+        <div class="note fixed">
+           
+        </div>
+    </div>
+
+
+
+</body>
+</html>
